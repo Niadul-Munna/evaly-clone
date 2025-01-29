@@ -1,5 +1,11 @@
-import Image from "next/image";
+// import HappyHour from "@/components/happy-hour";
+import { Posts } from "@/components/Posts";
 
 export default function Home() {
-  return <div>Hello</div>;
+  return (
+    <div>
+      {/* <HappyHour /> */}
+      <Posts />
+    </div>
+  );
 }
