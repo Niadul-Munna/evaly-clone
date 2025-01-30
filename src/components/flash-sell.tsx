@@ -18,13 +18,7 @@ const FlashSell = () => {
     };
     getFlashSellData();
   }, []);
-  return (
-    <div>
-      {flashSellProducts.map((product) => (
-        <img src={product.banner_url} alt={product.name} />
-      ))}
-    </div>
-  );
+  return <div></div>;
 };
 
 export default FlashSell;
